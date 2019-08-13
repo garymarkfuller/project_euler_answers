@@ -22,8 +22,18 @@ Project Euler is my chance to practice PHP using mathematical problems.
     echo $x . "<br />";
     $array = str_split($x);
     $answer = array_sum($array);
-    echo $answer;
-        
+    echo $answer . '<br />';
+
+    $total = 100;
+    for ($x = 99; $x > 0; $x--) {
+        $total = $total * $x;
+    }
+    $total_clean = number_format($total, 0, '', '');
+    echo $total_clean . '<br />';
+    $total_array = str_split($total_clean);
+    $total_answer = array_sum($total_array);
+    echo $total_answer . '<br />';
+
     ?>
   </body>
 </html> 
