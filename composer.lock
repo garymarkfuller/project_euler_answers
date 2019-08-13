@@ -4,37 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1deb2b8eb2a7a25dd82aebf3a1156dbf",
-    "content-hash": "698117ae0c01086c1bafb238bd6a3480",
+    "content-hash": "ef33f2afc7879dc670197f6a39898588",
     "packages": [
         {
             "name": "kwn/number-to-words",
-            "version": "0.0.4",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kwn/number-to-words.git",
-                "reference": "4b995cbceb40e8911a0baf8719ab3e38c7ad9856"
+                "reference": "8ec318bd25b5acd26b9329f708933352d2c412fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kwn/number-to-words/zipball/4b995cbceb40e8911a0baf8719ab3e38c7ad9856",
-                "reference": "4b995cbceb40e8911a0baf8719ab3e38c7ad9856",
+                "url": "https://api.github.com/repos/kwn/number-to-words/zipball/8ec318bd25b5acd26b9329f708933352d2c412fb",
+                "reference": "8ec318bd25b5acd26b9329f708933352d2c412fb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=5.6|>=7.1"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "~0.2",
-                "mockery/mockery": "~0.9",
-                "phpmd/phpmd": "~2.2",
-                "phpunit/phpunit": "~4.6",
-                "squizlabs/php_codesniffer": "~2.4"
+                "phpunit/phpunit": "^5.7.9",
+                "squizlabs/php_codesniffer": "^3.3.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Kwn\\NumberToWords\\": "src"
+                    "NumberToWords\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -47,17 +43,17 @@
                     "email": "k.wnuk@ascetic.pl"
                 }
             ],
-            "description": "Multilanguage standalone PHP number to words converter library. Fully tested, open for extensions and new languages.",
+            "description": "Multi language standalone PHP number to words converter. Fully tested, open for extensions and new languages.",
             "keywords": [
-                "angle",
                 "currency",
                 "money",
                 "number",
+                "numbers",
                 "string",
                 "to",
                 "words"
             ],
-            "time": "2016-05-04 19:42:54"
+            "time": "2019-08-12T06:19:06+00:00"
         }
     ],
     "packages-dev": [],
